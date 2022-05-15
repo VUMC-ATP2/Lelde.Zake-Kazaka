@@ -10,7 +10,7 @@ div {
 #header {
     height: 40px;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(167, 173, 241);
     position: fixed;
     z-index: 1;
 }
@@ -18,44 +18,74 @@ div {
 .footer {
     height: 40px;
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(167, 173, 241);
     position: relative;
     clear: both;
-}
-
-.left-side {
-    height: 1010px;
-    width: 50px;
-    background-color: aqua;
-    float: left;
-    position: fixed;
-}
-
-.right-side {
-    height: 1010px;
-    width: 50px;
-    background-color: aqua;
-    float: right;
-    position: inherit;
-}
-
-.content {
-    display: inline-block;
-    margin-top: 6px;
-    margin-left: 60px;
-    width: 75%;
-    height: 1010px;
 }
 
 .heading {
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
-    margin-top: 20px
+    margin-top: 20px;
+    color: rgb(137, 112, 161);
+    margin: 25px;
+}
+
+.content {
+    display: contents;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
 
 .copyright {
     float: right;
     margin-top: 10px;
     margin-right: 20px;
+    margin-left: 30px;
+    color: azure;
+}
+
+.Headername {
+    text-align: center;
+    color: rgb(232, 227, 237);
+}
+
+.picture {
+    text-align: center;
+    width: 260px;
+    height: 250px;
+    margin-top: 30px;
+}
+
+.Name {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(137, 112, 161);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Link {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(67, 60, 74);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list {
+    margin: 25px;
+}
+
+.interest {
+    border: 1px;
+    font-size: 20px;
+    color: rgb(137, 112, 161);
+    border-color: bisque;
+    background-color: rgb(246, 242, 211);
+    margin: 25px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
