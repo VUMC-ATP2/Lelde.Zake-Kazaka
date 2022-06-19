@@ -6,13 +6,19 @@ public class HomeWorkTwo {
     public static void main(String[] args) {
         int x = 6;
         boolean result = x > 5 && x <= 10;
-        boolean result1 = x >= 5 && x < 10;
+        boolean result1 = !(x <= 5 && x < 10);
         boolean result2 = x == 0 && x == 10;
+        System.out.println("1. piemērs: ");
         System.out.println(x > 0);
+        System.out.println("2. Piemērs: ");
         System.out.println(x < 0);
+        System.out.println("3. piemērs: ");
         System.out.println(result);
+        System.out.println("4. piemērs: ");
         System.out.println(result1);
+        System.out.println("5. piemērs: ");
         System.out.println(result2);
+        System.out.println("6. piemērs: ");
         System.out.println(x * x > 10);
 
         Scanner scanner = new Scanner (System.in);
@@ -54,11 +60,17 @@ public class HomeWorkTwo {
                 break;
             case 12:
                 System.out.println("December");
+                break;
+            default:
+                System.out.println("Please try again, enter number 1 - 12. ");
         }
         {
-            int nr1 = 10;
-            int nr2 = 5;
-            int nr3 = 3;
+            Scanner scanner1 = new Scanner(System.in);
+            System.out.println("Please enter 3 whole number: ");
+            int nr1 = scanner1.nextInt();
+            int nr2 = scanner1.nextInt();
+            int nr3 = scanner1.nextInt();
+
             if (nr1 >= nr2 && nr1 >= nr3)
                 System.out.println(nr1 + "is the maximum number.");
             else if (nr2 >= nr1 && nr2 >= nr3)
@@ -68,7 +80,9 @@ public class HomeWorkTwo {
         }
         {
 
-            String color = "Red";
+            Scanner scanner2  = new Scanner(System.in);
+            System.out.println("Please enter the color: ");
+            String color = scanner2.next();
 
             if (color.equals("Green"))
                 System.out.println("go");

@@ -4,9 +4,6 @@ import static java.lang.System.*;
 
 public class printBusinessCard {
 
-    private static String name;
-    private static String surname;
-
     public static void printBusinessCard() {
         out.println("Vizītkarte");
         out.println("#########");
@@ -17,8 +14,6 @@ public class printBusinessCard {
     }
 
     public static void printBusinessCardTwo(String name,String surname, String telephone, String dateOfBirth) {
-        printBusinessCard.name = name;
-        printBusinessCard.surname = surname;
         out.println("Vizītkarte");
         out.println("#########");
         out.println("Vārds: " + name + "\nUzvārds: " + surname + "\nTelefons: " + telephone + "\nDzimšanas gads: " + dateOfBirth);
